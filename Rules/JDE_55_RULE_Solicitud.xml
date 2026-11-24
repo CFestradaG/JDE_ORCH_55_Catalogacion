@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Rule matchType="matchAll">
+  <omwObjectName>RUL_2611200002CUST</omwObjectName>
+  <studioVersion>9.2.26.1</studioVersion>
+  <name>JDE_55_RULE_Solicitud</name>
+  <shortDesc>JDE_55_RULE_Solicitud</shortDesc>
+  <productCode>55</productCode>
+  <locale>en</locale>
+  <updateTime>1795499106842</updateTime>
+  <description></description>
+  <scriptLanguage>groovy</scriptLanguage>
+  <conditions>
+    <conditions operator="=" type="String">
+      <value1>
+        <value>xSolicitud</value>
+      </value1>
+      <value2 type="">
+        <value>A</value>
+      </value2>
+      <value2DateSpecial/>
+      <arrayName></arrayName>
+      <columnName></columnName>
+    </conditions>
+  </conditions>
+</Rule>

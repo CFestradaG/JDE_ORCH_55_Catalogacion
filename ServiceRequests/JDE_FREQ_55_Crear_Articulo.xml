@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ServiceRequest>
+  <omwObjectName>SRE_2611200001CUST</omwObjectName>
+  <studioVersion>9.2.26.1</studioVersion>
+  <name>JDE_FREQ_55_Crear_Articulo</name>
+  <shortDesc>JDE_FREQ_55_Crear_Articulo</shortDesc>
+  <productCode>55</productCode>
+  <locale>es</locale>
+  <updateTime>1795499106510</updateTime>
+  <group>0</group>
+  <appStack>true</appStack>
+  <returnFromAllForms>true</returnFromAllForms>
+  <bypassER>false</bypassER>
+  <serviceRequestSteps>
+    <serviceRequestSteps type="formRequest" appOID="P4101_W4101E" version="HA0001" bypassFormServiceEREvent="true">
+      <formTitle>Trabajo con examinador de maestro de artículos</formTitle>
+      <formActions>
+        <formActions type="action">
+          <controlID>17</controlID>
+          <action>DoAction</action>
+          <title>Añadir</title>
+        </formActions>
+      </formActions>
+      <formInterconnects/>
+      <stopOnWarning>false</stopOnWarning>
+      <maxPageSize>0</maxPageSize>
+      <pageSize>1000</pageSize>
+      <outputType>GRID_DATA</outputType>
+      <turboMode>Low</turboMode>
+      <excludeSummaryRow>false</excludeSummaryRow>
+      <enableAsyncEvents>false</enableAsyncEvents>
+      <allowCache>false</allowCache>
+      <forceUpdate>false</forceUpdate>
+      <cacheTime>0</cacheTime>
+      <bypassER>true</bypassER>
+      <returnControls>
+        <formControlMap/>
+      </returnControls>
+    </serviceRequestSteps>
+    <serviceRequestSteps type="formRequest" appOID="P4101_W4101A" version="HA0001" bypassFormServiceEREvent="true">
+      <formTitle>Modificaciones de maestro de artículos</formTitle>
+      <formActions>
+        <formActions type="input">
+          <input>D1</input>
+          <mappedTo>23</mappedTo>
+          <action>SetControlValue</action>
+          <title>Descripción</title>
+        </formActions>
+        <formActions type="input">
+          <input>D2</input>
+          <mappedTo>24</mappedTo>
+          <action>SetControlValue</action>
+          <title>Descripción</title>
+        </formActions>
+        <formActions type="input">
+          <input>Texto_Busqueda</input>
+          <mappedTo>25</mappedTo>
+          <action>SetControlValue</action>
+          <title>Texto búsqueda</title>
+        </formActions>
+        <formActions type="input">
+          <input>Tipo_Alm</input>
+          <mappedTo>26</mappedTo>
+          <action>SetControlValue</action>
+          <title>Tipo almacenamiento</title>
+        </formActions>
+        <formActions type="input">
+          <input>GLClass</input>
+          <mappedTo>27</mappedTo>
+          <action>SetControlValue</action>
+          <title>Clasificación LM</title>
+        </formActions>
+        <formActions type="input">
+          <input>UM</input>
+          <mappedTo>28</mappedTo>
+          <action>SetControlValue</action>
+          <title>Unidad medida</title>
+        </formActions>
+        <formActions type="input">
+          <input>Tipo_Linea</input>
+          <mappedTo>29</mappedTo>
+          <action>SetControlValue</action>
+          <title>Tipo línea</title>
+        </formActions>
+        <formActions type="input">
+          <input>Comprador</input>
+          <mappedTo>32</mappedTo>
+          <action>SetControlValue</action>
+          <title>Número comprador</title>
+        </formActions>
+        <formActions type="input">
+          <input>N_Costo</input>
+          <mappedTo>36</mappedTo>
+          <action>SetControlValue</action>
+          <title>Nivel costo inventario</title>
+        </formActions>
+        <formActions type="input">
+          <input>N_Precio_Venta</input>
+          <mappedTo>37</mappedTo>
+          <action>SetControlValue</action>
+          <title>Nivel precio venta</title>
+        </formActions>
+        <formActions type="input">
+          <input>N_Precio_Compra</input>
+          <mappedTo>38</mappedTo>
+          <action>SetControlValue</action>
+          <title>Nivel precio compra</title>
+        </formActions>
+        <formActions type="action">
+          <controlID>20.146</controlID>
+          <action>TabClick</action>
+          <title>Pesos y medidas</title>
+        </formActions>
+        <formActions type="input">
+          <input>UM_Principal</input>
+          <mappedTo>147</mappedTo>
+          <action>SetControlValue</action>
+          <title>Principal</title>
+        </formActions>
+        <formActions type="input">
+          <input>UM_Secundario</input>
+          <mappedTo>148</mappedTo>
+          <action>SetControlValue</action>
+          <title>Secundario</title>
+        </formActions>
+        <formActions type="input">
+          <input>UM_Peso</input>
+          <mappedTo>154</mappedTo>
+          <action>SetControlValue</action>
+          <title>Peso</title>
+        </formActions>
+        <formActions type="action">
+          <controlID>20.257</controlID>
+          <action>TabClick</action>
+          <title>Proceso lotes</title>
+        </formActions>
+        <formActions type="input">
+          <input>N_Serie</input>
+          <mappedTo>267</mappedTo>
+          <action>SetControlValue</action>
+          <title>Nº serie obligatorio</title>
+        </formActions>
+        <formActions type="input">
+          <input>M_Fecha_Cad</input>
+          <mappedTo>272</mappedTo>
+          <action>SetControlValue</action>
+          <title>Método fecha caducidad lote</title>
+        </formActions>
+        <formActions type="action">
+          <controlID>11</controlID>
+          <action>DoAction</action>
+          <title>OK</title>
+        </formActions>
+      </formActions>
+      <formInterconnects/>
+      <stopOnWarning>false</stopOnWarning>
+      <maxPageSize>0</maxPageSize>
+      <pageSize>1000</pageSize>
+      <outputType>GRID_DATA</outputType>
+      <turboMode>Low</turboMode>
+      <excludeSummaryRow>false</excludeSummaryRow>
+      <enableAsyncEvents>false</enableAsyncEvents>
+      <allowCache>false</allowCache>
+      <forceUpdate>false</forceUpdate>
+      <cacheTime>0</cacheTime>
+      <bypassER>true</bypassER>
+      <returnControls>
+        <formControlMap/>
+      </returnControls>
+    </serviceRequestSteps>
+    <serviceRequestSteps type="formRequest" appOID="P4101_W4101B" version="HA0001" bypassFormServiceEREvent="true">
+      <formTitle>Códigos de categoría</formTitle>
+      <formActions>
+        <formActions type="input">
+          <input>Sec_Cat_Ventas</input>
+          <mappedTo>20</mappedTo>
+          <action>SetControlValue</action>
+          <title>Sección catálogo ventas</title>
+        </formActions>
+        <formActions type="input">
+          <input>Subsec</input>
+          <mappedTo>21</mappedTo>
+          <action>SetControlValue</action>
+          <title>Subsección</title>
+        </formActions>
+        <formActions type="input">
+          <input>Cod_Familia</input>
+          <mappedTo>26</mappedTo>
+          <action>SetControlValue</action>
+          <title>Clase mercancía</title>
+        </formActions>
+        <formActions type="input">
+          <input>Cod_SubFamilia</input>
+          <mappedTo>27</mappedTo>
+          <action>SetControlValue</action>
+          <title>Subclase mercancía</title>
+        </formActions>
+        <formActions type="input">
+          <input>Cat_6</input>
+          <mappedTo>40</mappedTo>
+          <action>SetControlValue</action>
+          <title>Código categoría 6</title>
+        </formActions>
+        <formActions type="input">
+          <input>Cat_7</input>
+          <mappedTo>41</mappedTo>
+          <action>SetControlValue</action>
+          <title>Código categoría 7</title>
+        </formActions>
+        <formActions type="input">
+          <input>Cat_8</input>
+          <mappedTo>42</mappedTo>
+          <action>SetControlValue</action>
+          <title>Código categoría 8</title>
+        </formActions>
+        <formActions type="action">
+          <controlID>11</controlID>
+          <action>DoAction</action>
+          <title>OK</title>
+        </formActions>
+      </formActions>
+      <formInterconnects/>
+      <stopOnWarning>false</stopOnWarning>
+      <maxPageSize>0</maxPageSize>
+      <pageSize>1000</pageSize>
+      <outputType>GRID_DATA</outputType>
+      <turboMode>Low</turboMode>
+      <excludeSummaryRow>false</excludeSummaryRow>
+      <enableAsyncEvents>false</enableAsyncEvents>
+      <allowCache>false</allowCache>
+      <forceUpdate>false</forceUpdate>
+      <cacheTime>0</cacheTime>
+      <bypassER>true</bypassER>
+      <returnControls>
+        <formControlMap/>
+      </returnControls>
+    </serviceRequestSteps>
+    <serviceRequestSteps type="formRequest" appOID="P4101_W4101C" version="HA0001" bypassFormServiceEREvent="true">
+      <formTitle>Información adicional de sistema</formTitle>
+      <formActions>
+        <formActions type="action">
+          <controlID>11</controlID>
+          <action>DoAction</action>
+          <title>OK</title>
+        </formActions>
+      </formActions>
+      <formInterconnects/>
+      <stopOnWarning>false</stopOnWarning>
+      <maxPageSize>0</maxPageSize>
+      <pageSize>1000</pageSize>
+      <outputType>GRID_DATA</outputType>
+      <turboMode>Low</turboMode>
+      <excludeSummaryRow>false</excludeSummaryRow>
+      <enableAsyncEvents>false</enableAsyncEvents>
+      <allowCache>false</allowCache>
+      <forceUpdate>false</forceUpdate>
+      <cacheTime>0</cacheTime>
+      <bypassER>true</bypassER>
+      <returnControls>
+        <formControlMap/>
+      </returnControls>
+    </serviceRequestSteps>
+    <serviceRequestSteps type="formRequest" appOID="P4101_W4101D" version="HA0001" bypassFormServiceEREvent="true">
+      <formTitle>Almacenamiento/envío</formTitle>
+      <formActions>
+        <formActions type="action">
+          <controlID>11</controlID>
+          <action>DoAction</action>
+          <title>OK</title>
+        </formActions>
+      </formActions>
+      <formInterconnects/>
+      <stopOnWarning>false</stopOnWarning>
+      <maxPageSize>0</maxPageSize>
+      <pageSize>1000</pageSize>
+      <outputType>GRID_DATA</outputType>
+      <turboMode>Low</turboMode>
+      <excludeSummaryRow>false</excludeSummaryRow>
+      <enableAsyncEvents>false</enableAsyncEvents>
+      <allowCache>false</allowCache>
+      <forceUpdate>false</forceUpdate>
+      <cacheTime>0</cacheTime>
+      <bypassER>true</bypassER>
+      <returnControls>
+        <formControlMap/>
+      </returnControls>
+    </serviceRequestSteps>
+    <serviceRequestSteps type="formRequest" appOID="P41026_W41026A" version="ZJDE0001" bypassFormServiceEREvent="true">
+      <formTitle>Información sobre sucursales y plantas de artículos</formTitle>
+      <formActions>
+        <formActions type="input">
+          <input>Codigo_Largo</input>
+          <mappedTo>16</mappedTo>
+          <action>SetControlValue</action>
+          <title>Número artículo</title>
+        </formActions>
+        <formActions type="input">
+          <input>Bodega</input>
+          <mappedTo>15</mappedTo>
+          <action>SetControlValue</action>
+          <title>Unidad negocio</title>
+        </formActions>
+        <formActions type="input">
+          <input>Proveedor</input>
+          <mappedTo>145</mappedTo>
+          <action>SetControlValue</action>
+          <title>Nº proveedor</title>
+        </formActions>
+        <formActions type="action">
+          <controlID>11</controlID>
+          <action>DoAction</action>
+          <title>OK</title>
+        </formActions>
+      </formActions>
+      <formInterconnects/>
+      <stopOnWarning>false</stopOnWarning>
+      <maxPageSize>0</maxPageSize>
+      <pageSize>1000</pageSize>
+      <outputType>GRID_DATA</outputType>
+      <turboMode>Low</turboMode>
+      <excludeSummaryRow>false</excludeSummaryRow>
+      <enableAsyncEvents>false</enableAsyncEvents>
+      <allowCache>false</allowCache>
+      <forceUpdate>false</forceUpdate>
+      <cacheTime>0</cacheTime>
+      <bypassER>true</bypassER>
+      <returnControls>
+        <formControlMap/>
+      </returnControls>
+    </serviceRequestSteps>
+  </serviceRequestSteps>
+</ServiceRequest>

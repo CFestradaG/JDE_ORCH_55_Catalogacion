@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ServiceRequest>
+  <omwObjectName>SRE_2611230004CUST</omwObjectName>
+  <studioVersion>9.2.26.1</studioVersion>
+  <name>JDE_DREQ_55_Articulos</name>
+  <shortDesc>Recupera informacion del item master</shortDesc>
+  <productCode>55</productCode>
+  <locale>en</locale>
+  <updateTime>1795499106272</updateTime>
+  <description></description>
+  <group>0</group>
+  <appStack>false</appStack>
+  <returnFromAllForms>false</returnFromAllForms>
+  <bypassER>false</bypassER>
+  <serviceRequestSteps>
+    <serviceRequestSteps type="dataRequest">
+      <dataRequest>
+        <outputType>GRID_DATA</outputType>
+        <aliasNaming>true</aliasNaming>
+        <showActionControls>false</showActionControls>
+        <includeTimings>false</includeTimings>
+        <allowCache>false</allowCache>
+        <forceUpdate>false</forceUpdate>
+        <cacheTime>0</cacheTime>
+        <setDirtyOnly>false</setDirtyOnly>
+        <userPreferenceDateTimeFormat>false</userPreferenceDateTimeFormat>
+        <enableNextPageProcessing>false</enableNextPageProcessing>
+        <maxPageSize>NO MAX</maxPageSize>
+        <returnControlIDs>F4101.LITM|F4101.DSC1|F4101.DSC2|F4101.STKT|F4101.ITM</returnControlIDs>
+        <variableNames>r_litm|r_dsc1|r_dsc2|r_stkt|r_itm</variableNames>
+        <dataSetVariableName>DataSetF0101</dataSetVariableName>
+        <formActions/>
+        <query>
+          <complexQuery>
+            <complexQuery>
+              <query>
+                <condition>
+                  <condition>
+                    <value>
+                      <value>
+                        <content>${id_articulo}</content>
+                        <specialValueId>0</specialValueId>
+                        <specialValueString>LITERAL</specialValueString>
+                      </value>
+                    </value>
+                    <controlId>F4101.LITM</controlId>
+                    <operator>0</operator>
+                    <operatorString>EQUAL</operatorString>
+                  </condition>
+                </condition>
+                <matchType>0</matchType>
+              </query>
+            </complexQuery>
+          </complexQuery>
+          <autoFind>true</autoFind>
+          <autoClear>true</autoClear>
+        </query>
+        <batchDataRequest>false</batchDataRequest>
+        <targetName>F4101</targetName>
+        <targetType>table</targetType>
+        <dataServiceType>BROWSE</dataServiceType>
+        <monitorService>false</monitorService>
+        <pageSize>1000</pageSize>
+        <includeCount>false</includeCount>
+        <countVariableName></countVariableName>
+        <includeEmptyQueryValues>true</includeEmptyQueryValues>
+      </dataRequest>
+    </serviceRequestSteps>
+  </serviceRequestSteps>
+</ServiceRequest>

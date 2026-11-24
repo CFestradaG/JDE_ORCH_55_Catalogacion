@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Orchestration>
+  <omwObjectName>ORC_2603020002CUST</omwObjectName>
+  <studioVersion>9.2.26.1</studioVersion>
+  <name>JDE_ORCH_55_Catalogacion</name>
+  <shortDesc>JDE_ORCH_55_Catalogacion</shortDesc>
+  <version>v3</version>
+  <productCode>55</productCode>
+  <locale>en</locale>
+  <updateTime>1795500047957</updateTime>
+  <message></message>
+  <warningMessage></warningMessage>
+  <errorMessage></errorMessage>
+  <includeMessage>false</includeMessage>
+  <includeWarningMessage>true</includeWarningMessage>
+  <includeErrorMessage>true</includeErrorMessage>
+  <includeStatus>true</includeStatus>
+  <includeTimestamp>true</includeTimestamp>
+  <includeExecutionTime>true</includeExecutionTime>
+  <inputFormat>Generic</inputFormat>
+  <jobQueue>JDE__DEFAULT</jobQueue>
+  <stateful>false</stateful>
+  <statefulVersion>0</statefulVersion>
+  <publicStatefulVersion>0</publicStatefulVersion>
+  <requireStepId>false</requireStepId>
+  <monitoringLevel>
+    <monitoringLevel>monitorOrch</monitoringLevel>
+    <monitoringLevel>monitorOrchIO</monitoringLevel>
+    <monitoringLevel>monitorSteps</monitoringLevel>
+    <monitoringLevel>monitorStepIO</monitoringLevel>
+  </monitoringLevel>
+  <monitorOnStart>false</monitorOnStart>
+  <monitorAllEnvironments>false</monitorAllEnvironments>
+  <monitorAllUsers>false</monitorAllUsers>
+  <monitorEnvironments>
+    <monitorEnvironments>JPY920</monitorEnvironments>
+  </monitorEnvironments>
+  <monitorUsers>
+    <monitorUsers>CFESTRADA</monitorUsers>
+  </monitorUsers>
+  <nullDateAsString>false</nullDateAsString>
+  <isPrivate>false</isPrivate>
+  <scheduleInput>{}</scheduleInput>
+  <inputTypes>
+    <inputTypes type="Array" required="false" useBlankDefault="false">
+      <name>SKU_I</name>
+      <displayName>SKU_I</displayName>
+      <array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>Codigo_Largo</name>
+          <displayName>Codigo_Largo</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>D1</name>
+          <displayName>D1</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>D2</name>
+          <displayName>D2</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>Texto_Busqueda</name>
+          <displayName>Texto_Busqueda</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>UM</name>
+          <displayName>UM</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>Tipo_Alm</name>
+          <displayName>Tipo_Alm</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>Tipo_Linea</name>
+          <displayName>Tipo_Linea</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>GLClass</name>
+          <displayName>GLClass</displayName>
+        </array>
+        <array type="Numeric" required="false" useBlankDefault="false">
+          <name>Comprador</name>
+          <displayName>Comprador</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>Cod_Familia</name>
+          <displayName>Cod_Familia</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>Cod_SubFamilia</name>
+          <displayName>Cod_SubFamilia</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>Cat_6</name>
+          <displayName>Cat_6</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>Cat_7</name>
+          <displayName>Cat_7</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>Cat_8</name>
+          <displayName>Cat_8</displayName>
+        </array>
+        <array type="Numeric" required="false" useBlankDefault="false">
+          <name>Proveedor</name>
+          <displayName>Proveedor</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>Solicitud</name>
+          <defaultValue>C</defaultValue>
+          <displayName>Solicitud</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>Codigo_Corto</name>
+          <displayName>Codigo_Corto</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>N_CostoCLEV</name>
+          <displayName>N_CostoCLEV</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>N_Precio_Venta</name>
+          <displayName>N_Precio_Venta</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>N_Precio_Compra</name>
+          <displayName>N_Precio_Compra</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>UM_Principal</name>
+          <displayName>UM_Principal</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>UM_Secundario</name>
+          <displayName>UM_Secundario</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>UM_Peso</name>
+          <displayName>UM_Peso</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>N_Serie</name>
+          <displayName>N_Serie</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>M_Fecha_Cad</name>
+          <displayName>M_Fecha_Cad</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>Sec_Cat_Ventas</name>
+          <displayName>Sec_Cat_Ventas</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>Subsec</name>
+          <displayName>Subsec</displayName>
+        </array>
+        <array type="String" required="false" useBlankDefault="false">
+          <name>Bodega</name>
+          <displayName>Bodega</displayName>
+        </array>
+      </array>
+    </inputTypes>
+  </inputTypes>
+  <variableTypes/>
+  <orchestrationSteps>
+    <orchestrationSteps type="ServiceRequest" subType="DATA_REQUEST">
+      <name>JDE_DREQ_55_Articulos</name>
+      <omwObjectName>SRE_2611230004CUST</omwObjectName>
+      <stepId>4</stepId>
+      <transformations>
+        <transformations input="Codigo_Largo" output="${id_articulo}"/>
+      </transformations>
+      <outputMappings/>
+      <continueOnError>false</continueOnError>
+      <additionalErrorText></additionalErrorText>
+      <exceptionProcess></exceptionProcess>
+      <exceptionProcessName></exceptionProcessName>
+      <exceptionProcessType>NONE</exceptionProcessType>
+      <exProcFireAndForget>false</exProcFireAndForget>
+      <excInputs/>
+      <includeRawOutput>false</includeRawOutput>
+      <fireAndForget>false</fireAndForget>
+    </orchestrationSteps>
+    <orchestrationSteps type="Rule">
+      <name>JDE_55_RULE_Solicitud</name>
+      <omwObjectName>RUL_2611200002CUST</omwObjectName>
+      <stepId>5</stepId>
+      <transformations>
+        <transformations input="Solicitud" output="xSolicitud"/>
+      </transformations>
+      <outputMappings/>
+      <trueActions>
+        <trueActions type="ServiceRequest" subType="FORM_REQUEST">
+          <name>JDE_FREQ_55_Modificar_Articulo</name>
+          <omwObjectName>SRE_261122195133CUST</omwObjectName>
+          <stepId>7</stepId>
+          <transformations>
+            <transformations input="Codigo_Largo" output="Codigo_Largo"/>
+            <transformations input="D1" output="D1"/>
+            <transformations input="D2" output="D2"/>
+            <transformations input="Texto_Busqueda" output="Texto_Busqueda"/>
+            <transformations input="Tipo_Alm" output="Tipo_Alm"/>
+            <transformations input="GLClass" output="GLClass"/>
+            <transformations input="UM" output="UM"/>
+            <transformations input="Tipo_Linea" output="Tipo_Linea"/>
+            <transformations input="N_Precio_Venta" output="N_Precio_Venta"/>
+            <transformations input="N_Precio_Compra" output="N_Precio_Compra"/>
+            <transformations input="UM_Principal" output="UM_Principal"/>
+            <transformations input="UM_Secundario" output="UM_Secundario"/>
+            <transformations input="M_Fecha_Cad" output="M_Fecha_Cad"/>
+            <transformations input="Sec_Cat_Ventas" output="Sec_Cat_Ventas"/>
+            <transformations input="Subsec" output="Subsec"/>
+            <transformations input="Cod_Familia" output="Cod_Familia"/>
+            <transformations input="Cod_SubFamilia" output="Cod_SubFamilia"/>
+            <transformations input="Cat_6" output="Cat_6"/>
+            <transformations input="Cat_7" output="Cat_7"/>
+            <transformations input="Cat_8" output="Cat_8"/>
+            <transformations input="Bodega" output="Bodega"/>
+            <transformations input="Proveedor" output="Proveedor"/>
+          </transformations>
+          <outputMappings/>
+          <continueOnError>false</continueOnError>
+          <additionalErrorText></additionalErrorText>
+          <exceptionProcess></exceptionProcess>
+          <exceptionProcessName></exceptionProcessName>
+          <exceptionProcessType>NONE</exceptionProcessType>
+          <exProcFireAndForget>false</exProcFireAndForget>
+          <excInputs/>
+          <includeRawOutput>false</includeRawOutput>
+          <fireAndForget>false</fireAndForget>
+        </trueActions>
+      </trueActions>
+      <falseActions>
+        <falseActions type="ServiceRequest" subType="FORM_REQUEST">
+          <name>JDE_FREQ_55_Crear_Articulo</name>
+          <omwObjectName>SRE_2611200001CUST</omwObjectName>
+          <stepId>6</stepId>
+          <transformations>
+            <transformations input="Codigo_Largo" output="2do_nº_artículo"/>
+          </transformations>
+          <outputMappings/>
+          <continueOnError>false</continueOnError>
+          <additionalErrorText></additionalErrorText>
+          <exceptionProcess></exceptionProcess>
+          <exceptionProcessName></exceptionProcessName>
+          <exceptionProcessType>NONE</exceptionProcessType>
+          <exProcFireAndForget>false</exProcFireAndForget>
+          <excInputs/>
+          <includeRawOutput>false</includeRawOutput>
+          <fireAndForget>false</fireAndForget>
+        </falseActions>
+      </falseActions>
+      <continueOnError>false</continueOnError>
+      <additionalErrorText></additionalErrorText>
+      <exceptionProcess></exceptionProcess>
+      <exceptionProcessName></exceptionProcessName>
+      <exceptionProcessType>NONE</exceptionProcessType>
+      <exProcFireAndForget>false</exProcFireAndForget>
+      <excInputs/>
+      <includeRawOutput>false</includeRawOutput>
+      <fireAndForget>false</fireAndForget>
+    </orchestrationSteps>
+  </orchestrationSteps>
+</Orchestration>
